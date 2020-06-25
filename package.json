@@ -1,0 +1,26 @@
+{
+  "name": "scrap",
+  "version": "1.0.0",
+  "description": "Stafford Code Challenge",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon", 
+    "prod": "pm2 start src/loader.js --name scrap"
+  },
+  "keywords": [],
+  "author": "Silvana Siqueira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.14.0",
+    "lodash": "^4.17.14",
+    "mongoose": "^4.7.0",
+    "node-restful": "^0.2.5",
+    "pm2": "^2.1.5",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
