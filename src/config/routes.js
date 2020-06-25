@@ -5,7 +5,7 @@ module.exports = function(server) {
     server.use('/coolcamping', router)
 
     const CoolCamping = require('../api/coolcamping/coolcampingService')
-    CoolCamping.register(router, '/collcamping')
+    CoolCamping.register(router, '/coolcamping')
 
 }
  
