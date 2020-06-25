@@ -15,7 +15,7 @@
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.14.0",
     "lodash": "^4.17.14",
-    "mongoose": "^4.7.0",
+    "mongoose": "^5.7.5",
     "node-restful": "^0.2.5",
     "pm2": "^2.1.5",
     "request": "^2.88.2"
