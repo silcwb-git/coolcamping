@@ -2,6 +2,7 @@ const request = require('request');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
+//test to validate info
 const writeStream = fs.createWriteStream('post.txt');
 
 writeStream.write(`Name|Link|Summary| \n`);
