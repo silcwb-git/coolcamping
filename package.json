@@ -14,7 +14,7 @@
     "body-parser": "^1.15.2",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.14.0",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "mongoose": "^4.7.0",
     "node-restful": "^0.2.5",
     "pm2": "^2.1.5",
